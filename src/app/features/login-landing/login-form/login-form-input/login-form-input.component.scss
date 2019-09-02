@@ -1,0 +1,23 @@
+// variables
+$input-width: 400px;
+$label-font-color: rgb(132, 143, 153);
+// styles
+input.login-form-input {
+    width: $input-width;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #d5dce0;
+    font-size: 15px;
+    outline: none;
+    padding-left: 10px;
+}
+input.login-form-input:focus {
+    border: 1px solid #c1c8cc;
+    box-shadow: inset 0px 1px 1px 0px #edf1f2;
+}
+p.login-form-input-label {
+    font-size: .75em;
+    color: $label-font-color;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}

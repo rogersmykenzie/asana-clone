@@ -1,0 +1,69 @@
+.login-landing-background {
+    width: 100vw;
+    height: 110vh;
+    background: linear-gradient(to top right, rgba(255, 82, 99, 0.9) 10%, rgba(255, 115, 129, 0.9) 65%, rgba(252, 189, 1, 0.9) 125%)
+}
+.login-landing-asana-logo-container {
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 120px;
+    }
+}
+.login-landing-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35vh;
+    color: white;
+    font-size: .9em;
+    height: 10vh;
+}
+.login-landing-register {
+    display: flex;
+    align-items: center;
+}
+.login-landing-sign-up {
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    margin-left: 1vw;
+    width: 70px;
+    font-size: .9em;
+    transition-property: background-color, color;
+    transition-duration: .2s;
+    transition-timing-function: ease;
+}
+.login-landing-sign-up:hover {
+    background-color: white;
+    cursor: pointer;
+    color: rgb(92, 92, 92);
+}
+.login-landing-contact {
+    ul {
+        display: flex;
+        list-style-type: none;
+        width: 100vw;
+        justify-content: center;
+        height: 1vw;
+        li {
+            box-sizing: border-box;
+            margin-left: 5px;
+            color: white;
+        }
+        li:nth-child(2n) {
+            font-size: .5em;
+            margin-top: .25em;
+        }
+        li:nth-child(2n+1):hover {
+            cursor: pointer;
+            border-bottom: 1px solid white;
+        }
+    }
+}

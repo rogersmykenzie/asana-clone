@@ -1,0 +1,12 @@
+<div
+class="login-form-input-container">
+    <p 
+    class="noto-sans login-form-input-label">
+        {{ inputLabel }}
+    </p>
+    <input 
+    (keyup)="emitEvent($event)"
+    type={{fieldType}}
+    class="login-form-input"
+    />
+</div>

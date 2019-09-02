@@ -1,0 +1,69 @@
+<main
+class="login-form-container">
+    <form
+    class="login-form">
+        <div
+        class="log-in-title">
+            <div
+            class="login-form-title-container">
+                <h1
+                id="log-in-title">
+                    Log In
+                </h1>
+            </div>
+            <div
+            class="login-form-auth-button-container">
+                <button
+                class="login-form-auth-button">
+                    Use Google Account
+                </button>
+            </div>
+        </div>
+        <div 
+        class="login-form-horizontal-rule-container">
+            <span
+            class='roboto'>
+                or
+            </span>
+        </div>
+        <div
+        class="login-form-input-container">
+            <app-login-form-input
+            (inputTextChange)="updateEmailAddress($event)"
+            [inputLabel]="'Email Address'">
+            </app-login-form-input>
+            <app-login-form-input
+            (inputTextChange)="updatePassword($event)"
+            [fieldType]="'password'"
+            [inputLabel]="'Password'">
+            </app-login-form-input>
+        </div>
+        <div
+        class="login-form-recover-password-container">
+            <div
+            class="login-form-recover-password-align">
+                <p
+                class="login-form-recover-password">
+                    Forgot your password?
+                </p>
+            </div>
+        </div>
+        <div
+        class="login-form-button-container">
+            <div
+            class="login-form-button-align">
+                <a
+                routerLink="/test"
+                routerLinkActive="active">
+                    <button
+                    type="submit"
+                    class="login-form-button roboto"
+                    (click)="$event.preventDefault()"
+                    [disabled]="!ableToLogin">
+                        Log In
+                    </button>
+                </a>
+            </div>
+        </div>
+    </form>
+</main>

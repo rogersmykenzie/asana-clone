@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { LoginLandingComponent } from './features/login-landing/login-landing.component';
 import { LoginFormComponent } from './features/login-landing/login-form/login-form.component';
 import { LoginFormInputComponent } from './features/login-landing/login-form/login-form-input/login-form-input.component';
-import {RegisterModule} from "./register/register.module";
+import { RegisterModule } from "./register/register.module";
 
 @NgModule({
   declarations: [

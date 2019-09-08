@@ -1,3 +1,21 @@
 .main-landing-tag-line {
     font-size: 3em;
+    font-weight: 1000;
+    border: 1px solid green;
+}
+.main-landing-sub-tag-line {
+    font-size: 1.75em;
+    font-weight: 500;
+    color: gray;
+}
+.main-landing-info-container {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    .main-landing-info {
+        border:  1px solid blue;
+        width: 60%;
+        margin-top: 10vh;
+        text-align: center;
+    }
 }
